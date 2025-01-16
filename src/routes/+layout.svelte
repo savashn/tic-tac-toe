@@ -7,14 +7,16 @@
 <style>
     :global(body) {
         margin: 0;
+        padding: 0;
         line-height: 1;
         background-color: black;
         color: white;
+        height: 100vh;
+        font-family: Arial, sans-serif;
     }
 
     :global(main) {
         text-align: center;
-        font-family: Arial, sans-serif;
         margin-top: 5rem;
     }
 
@@ -36,6 +38,7 @@
         height: 8rem;
         font-size: 2rem;
         text-align: center;
+        background-color: gray;
     }
 
     :global(.x) {
